@@ -7,6 +7,16 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.major > div {
+	margin-top: 1em;
+}
+
+li > p {
+	text-align: center;
+	font-size: small;
+	margin-bottom: 0;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -129,7 +139,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #8cd1a8;
+		color: #61686b;
 		text-decoration: none;
 	}
 
@@ -149,7 +159,9 @@ input, select, textarea {
 	}
 
 	p {
+		font-size: medium;
 		margin: 0 0 2em 0;
+		text-align: justify;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -174,6 +186,7 @@ input, select, textarea {
 	h3 {
 		font-size: 1em;
 		line-height: 1.5em;
+		margin-top: 2em;
 	}
 
 	h4 {
@@ -2236,6 +2249,9 @@ input, select, textarea {
 		}
 
 		.image img {
+			border: 1px solid black;
+			border-radius: 0.5em;
+			color: white;
 			display: block;
 		}
 
@@ -2261,7 +2277,6 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
 			width: 100%;
 		}
 
@@ -2288,6 +2303,7 @@ input, select, textarea {
 	}
 
 		ul li {
+			font-size: medium;
 			padding-left: 0.5em;
 		}
 
