@@ -18,8 +18,7 @@ li > p {
 }
 
 .center {
-	display: flex;
-    align-items: center;
+	margin: auto;
 }
 
 html, body, div, span, applet, object,
